@@ -5,796 +5,213 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 小昕iOS软件库, server: 1.1.1.1, port: 443, type: ss, cipher: aes-256-gcm, password: !<str> 123456}
+  - {name: 小昕iOS分享, server: 1.1.1.1, port: 443, type: ss, cipher: aes-256-gcm, password: !<str> 123456}
   - {name: 网盘 https://pan.iosxin.top, server: 1.1.1.3, port: 443, type: ss, cipher: aes-256-gcm, password: !<str> 123456}
   - {name: TG https://t.me/xiaoxiniOS, server: 1.1.1.4, port: 443, type: ss, cipher: aes-256-gcm, password: !<str> 123456}
-  - {name: 🇭🇰 香港_R_1215, server: react-cdn-004.telescopeclothing.com, port: 45007, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
-  - {name: 🇭🇰 香港_R_988, server: angular-cdn-3.telescopeclothing.com, port: 35232, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
-  - {name: 🇭🇰 香港_R_911, server: angular-cdn-3.telescopeclothing.com, port: 35151, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
-  - {name: 🇭🇰 香港_R_863, server: angular-cdn-3.telescopeclothing.com, port: 35092, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
-  - {name: 🇨🇳 台湾_R_1040, server: angular-cdn-3.telescopeclothing.com, port: 35245, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
-  - {name: 🇨🇳 台湾_R_821, server: angular-cdn-3.telescopeclothing.com, port: 35046, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
-  - {name: 🇨🇳 台湾_R_1170, server: angular-cdn-1.telescopes.work, port: 45013, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
   - {name: 🇹🇭 泰国_R_1013, server: angular-cdn-2.telescopes.work, port: 35240, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
-  - {name: 🇮🇳 印度_R_868, server: angular-cdn-3.telescopeclothing.com, port: 35093, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
-  - {name: 🇮🇳 印度_R_1179, server: angular-cdn-1.telescopes.work, port: 45008, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
-  - {name: 🇫🇷 法国_R_1164, server: angular-cdn-1.telescopes.work, port: 45005, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
-  - {name: 🇩🇪 德国_R_1174, server: angular-cdn-1.telescopes.work, port: 45006, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
-  - {name: 🇦🇺 澳大利亚_R_816, server: angular-cdn-3.telescopeclothing.com, port: 35038, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
-  - {name: 🇦🇺 澳大利亚_R_1169, server: angular-cdn-1.telescopes.work, port: 45002, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
-  - {name: 🇻🇳 越南_R_1175, server: angular-cdn-1.telescopes.work, port: 45016, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
   - {name: 🇻🇳 越南_R_1388, server: react-cdn-004.telescopeclothing.com, port: 45016, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
-  - {name: 🇲🇾 马来西亚_R_1142, server: react-cdn-004.telescopeclothing.com, port: 45056, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
-  - {name: 🇪🇪 爱沙尼亚_R_905, server: angular-cdn-2.telescopes.work, port: 35137, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
-  - {name: 🇿🇦 南非_R_1034, server: angular-cdn-2.telescopes.work, port: 35244, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
-  - {name: 🇨🇦 加拿大_R_890, server: angular-cdn-3.telescopeclothing.com, port: 35105, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
-  - {name: 🇯🇵 日本_R_1129, server: react-cdn-004.telescopeclothing.com, port: 45009, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
-  - {name: 🇯🇵 日本_R_1204, server: angular-cdn-1.telescopes.work, port: 45009, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
-  - {name: 🇦🇿 阿塞拜疆_R_899, server: angular-cdn-2.telescopes.work, port: 35128, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
   - {name: 🇰🇭 柬埔寨_R_992, server: angular-cdn-2.telescopes.work, port: 35234, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
-  - {name: 🇵🇭 菲律宾_R_811, server: angular-cdn-3.telescopeclothing.com, port: 35033, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
-  - {name: 🇨🇭 瑞士_R_1018, server: angular-cdn-2.telescopes.work, port: 35241, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
-  - {name: 🇦🇪 阿联酋_R_977, server: angular-cdn-2.telescopes.work, port: 35230, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
-  - {name: 🇸🇬 新加坡_R_806, server: angular-cdn-3.telescopeclothing.com, port: 35026, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
-  - {name: 🇸🇬 新加坡_R_1166, server: angular-cdn-1.telescopes.work, port: 45011, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
-  - {name: 🇸🇬 新加坡_R_826, server: angular-cdn-3.telescopeclothing.com, port: 35051, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
-  - {name: 🇰🇷 韩国_R_873, server: angular-cdn-3.telescopeclothing.com, port: 35099, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
-  - {name: 🇰🇷 韩国_R_1180, server: angular-cdn-1.telescopes.work, port: 45010, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
-  - {name: 🇰🇷 韩国_R_878, server: angular-cdn-3.telescopeclothing.com, port: 35101, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
-  - {name: 🇺🇸 美国_R_928, server: angular-cdn-3.telescopeclothing.com, port: 35173, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
-  - {name: 🇺🇸 美国_R_780, server: angular-cdn-3.telescopeclothing.com, port: 35009, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
-  - {name: 🇺🇸 美国_R_1108, server: react-cdn-004.telescopeclothing.com, port: 45026, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
-  - {name: 🇺🇸 美国_R_1159, server: angular-cdn-1.telescopes.work, port: 45026, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
-  - {name: 🇺🇸 美国_R_884, server: angular-cdn-3.telescopeclothing.com, port: 35103, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
-  - {name: 🇬🇧 英国_R_1111, server: react-cdn-004.telescopeclothing.com, port: 45014, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
-  - {name: 🇬🇧 英国_R_1162, server: angular-cdn-1.telescopes.work, port: 45014, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
-  - {name: 🇷🇺 俄罗斯_R_982, server: angular-cdn-2.telescopes.work, port: 35231, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
-  - {name: 🇳🇬 尼日利亚_R_921, server: angular-cdn-2.telescopes.work, port: 35157, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
   - {name: 🇹🇷 土耳其_R_841, server: angular-cdn-2.telescopes.work, port: 35067, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
   - {name: 🇭🇺 匈牙利_R_972, server: angular-cdn-2.telescopes.work, port: 35209, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
-  - {name: 🇮🇱 以色列_R_952, server: angular-cdn-2.telescopes.work, port: 35185, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
-  - {name: 🇺🇦 乌克兰_R_947, server: angular-cdn-2.telescopes.work, port: 35183, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
-  - {name: 🇪🇸 西班牙_R_942, server: angular-cdn-2.telescopes.work, port: 35182, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
-  - {name: 🇧🇬 保加利亚_R_937, server: angular-cdn-2.telescopes.work, port: 35180, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
-  - {name: 🇮🇸 冰岛_R_932, server: angular-cdn-2.telescopes.work, port: 35179, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
+  - {name: 🇬🇧 英国_R_1111, server: react-cdn-004.telescopeclothing.com, port: 45014, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
   - {name: 🇳🇱 荷兰_R_794, server: angular-cdn-2.telescopes.work, port: 35020, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
-  - {name: 🇦🇷 阿根廷_R_894, server: angular-cdn-2.telescopes.work, port: 35121, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
   - {name: 🇮🇹 意大利_R_967, server: angular-cdn-2.telescopes.work, port: 35208, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
   - {name: 🇮🇩 印度尼西亚_R_962, server: angular-cdn-2.telescopes.work, port: 35197, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
-  - {name: 🇰🇪 肯尼亚_R_1050, server: angular-cdn-2.telescopes.work, port: 35250, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
   - {name: 缅甸_R_1391, server: angular-cdn-2.telescopes.work, port: 35263, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
-  - {name: 🇨🇳 广东省广州市, server: 183.233.187.230, port: 26668, type: ss, cipher: chacha20-ietf-poly1305, password: cfa17a0d-5e7d-4871-976e-f116e0818123}
-  - {name: 🇨🇳 广东省广州市 2, server: 183.233.187.230, port: 20003, type: ss, cipher: chacha20-ietf-poly1305, password: cfa17a0d-5e7d-4871-976e-f116e0818123}
-  - {name: 🇨🇳 广东省广州市 3, server: 183.233.187.230, port: 50002, type: ss, cipher: chacha20-ietf-poly1305, password: cfa17a0d-5e7d-4871-976e-f116e0818123}
-  - {name: 🇺🇸 美国, server: 164.152.106.39, port: 20552, type: ss, cipher: chacha20-ietf-poly1305, password: 755d5ef8-badf-4e2d-8063-185faa2206a2}
-  - {name: 🇨🇳 甘肃省兰州市, server: 36.139.110.169, port: 33302, type: vmess, uuid: 83a348a5-c711-4b43-a365-c4ecb94c005c, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 河北省 3, server: 36.212.152.13, port: 33321, type: vmess, uuid: 83a348a5-c711-4b43-a365-c4ecb94c005c, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 甘肃省兰州市 2, server: 36.139.110.169, port: 33408, type: vmess, uuid: 83a348a5-c711-4b43-a365-c4ecb94c005c, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 广东省广州市 4, server: 183.236.51.7, port: 10827, type: trojan, password: 9ceb97e0-2450-4f34-aed9-f7657fcf5302, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 5, server: 183.236.51.7, port: 10808, type: trojan, password: fd0bdc3a-d4e7-42a3-8400-72db8dee6b71, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 6, server: 183.236.51.6, port: 10832, type: trojan, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, sni: undefined, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 7, server: 183.236.51.7, port: 10823, type: trojan, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, sni: undefined, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 8, server: 183.236.51.7, port: 10831, type: trojan, password: 9ceb97e0-2450-4f34-aed9-f7657fcf5302, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 9, server: 183.236.51.6, port: 10816, type: trojan, password: 9ceb97e0-2450-4f34-aed9-f7657fcf5302, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 10, server: 183.236.51.7, port: 10819, type: trojan, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, sni: undefined, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 11, server: 183.236.51.6, port: 10818, type: trojan, password: fd0bdc3a-d4e7-42a3-8400-72db8dee6b71, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 12, server: 183.236.51.6, port: 10834, type: trojan, password: 9ceb97e0-2450-4f34-aed9-f7657fcf5302, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 13, server: 183.236.51.7, port: 10822, type: trojan, password: 9ceb97e0-2450-4f34-aed9-f7657fcf5302, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 14, server: 183.236.51.6, port: 10813, type: trojan, password: 9ceb97e0-2450-4f34-aed9-f7657fcf5302, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾省, server: 118.167.77.5, port: 4443, type: vmess, uuid: abbc98b1-b53f-45e4-9d01-54a010ead719, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 台湾省 2, server: 118.167.76.233, port: 2024, type: vmess, uuid: abbc98b1-b53f-45e4-9d01-54a010ead719, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 甘肃省兰州市 3, server: 36.139.110.169, port: 34522, type: ss, cipher: aes-128-gcm, password: 83a348a5-c711-4b43-a365-c4ecb94c005c}
-  - {name: 🇨🇳 河北省 5, server: 36.212.152.13, port: 33329, type: vmess, uuid: 83a348a5-c711-4b43-a365-c4ecb94c005c, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 上海市, server: 58.247.255.217, port: 36999, type: ss, cipher: aes-256-gcm, password: 47c97380-6525-46ca-88ef-d23866fc904c}
-  - {name: 🇨🇳 河北省 7, server: 36.212.152.13, port: 34521, type: ss, cipher: aes-128-gcm, password: 83a348a5-c711-4b43-a365-c4ecb94c005c}
-  - {name: 🇨🇳 河北省 8, server: 36.212.152.13, port: 33333, type: vmess, uuid: 83a348a5-c711-4b43-a365-c4ecb94c005c, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 广东省广州市 15, server: 183.236.51.7, port: 10834, type: trojan, password: 9ceb97e0-2450-4f34-aed9-f7657fcf5302, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 16, server: 183.236.51.7, port: 10832, type: trojan, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, sni: undefined, skip-cert-verify: true}
-  - {name: 🇨🇳 甘肃省兰州市 5, server: 36.139.110.169, port: 32712, type: ss, cipher: aes-128-gcm, password: 83a348a5-c711-4b43-a365-c4ecb94c005c}
-  - {name: 🇨🇳 广东省, server: 183.240.222.161, port: 34536, type: ss, cipher: aes-128-gcm, password: 83a348a5-c711-4b43-a365-c4ecb94c005c}
-  - {name: 🇨🇳 河北省 9, server: 36.212.152.13, port: 33306, type: vmess, uuid: 83a348a5-c711-4b43-a365-c4ecb94c005c, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 河北省 10, server: 36.212.152.13, port: 33301, type: vmess, uuid: 83a348a5-c711-4b43-a365-c4ecb94c005c, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡, server: 13.250.55.22, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇭🇰 香港_R_1155, server: angular-cdn-1.telescopes.work, port: 45007, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
-  - {name: 🇨🇳 甘肃省兰州市 4, server: 36.140.101.101, port: 48267, type: ss, cipher: aes-256-gcm, password: 96fef8a1-93d6-414a-8537-e1ffb465e066}
-  - {name: 🇯🇵 日本东京, server: 13.231.78.35, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 美国_R_1108, server: react-cdn-004.telescopeclothing.com, port: 45026, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
+  - {name: 🇦🇪 阿联酋_R_977, server: angular-cdn-2.telescopes.work, port: 35230, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
+  - {name: 🇳🇱 荷兰_R_794 2, server: angular-cdn-2.telescopes.work, port: 35020, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
+  - {name: 🇪🇸 西班牙_R_942, server: angular-cdn-2.telescopes.work, port: 35182, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
+  - {name: 🇨🇳 上海市, server: 180.164.80.121, port: 8443, type: trojan, password: 18d443f9-ad28-3c96-b13d-9127c46e06b7, sni: 45.32.28.232}
+  - {name: 🇰🇷 韩国 - Seongnam-si - Korea Telecom - 1, server: p220.panda001.net, port: 53258, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: 🇰🇷 韩国 - Seongnam-si - Korea Telecom - 1 2, server: p220.panda001.net, port: 53258, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: 🇰🇷 韩国 - Seongnam-si - Korea Telecom - 1 3, server: p220.panda001.net, port: 53258, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
-      - 🇭🇰 香港节点
-      - 🇺🇲 美国节点
-      - 🇯🇵 日本节点
-      - 🚀 手动切换
       - DIRECT
-  - name: 🚀 手动切换
-    type: select
-    proxies:
-      - 小昕iOS软件库
+      - 小昕iOS分享
       - 网盘 https://pan.iosxin.top
       - TG https://t.me/xiaoxiniOS
-      - 🇭🇰 香港_R_1215
-      - 🇭🇰 香港_R_988
-      - 🇭🇰 香港_R_911
-      - 🇭🇰 香港_R_863
-      - 🇨🇳 台湾_R_1040
-      - 🇨🇳 台湾_R_821
-      - 🇨🇳 台湾_R_1170
       - 🇹🇭 泰国_R_1013
-      - 🇮🇳 印度_R_868
-      - 🇮🇳 印度_R_1179
-      - 🇫🇷 法国_R_1164
-      - 🇩🇪 德国_R_1174
-      - 🇦🇺 澳大利亚_R_816
-      - 🇦🇺 澳大利亚_R_1169
-      - 🇻🇳 越南_R_1175
       - 🇻🇳 越南_R_1388
-      - 🇲🇾 马来西亚_R_1142
-      - 🇪🇪 爱沙尼亚_R_905
-      - 🇿🇦 南非_R_1034
-      - 🇨🇦 加拿大_R_890
-      - 🇯🇵 日本_R_1129
-      - 🇯🇵 日本_R_1204
-      - 🇦🇿 阿塞拜疆_R_899
       - 🇰🇭 柬埔寨_R_992
-      - 🇵🇭 菲律宾_R_811
-      - 🇨🇭 瑞士_R_1018
-      - 🇦🇪 阿联酋_R_977
-      - 🇸🇬 新加坡_R_806
-      - 🇸🇬 新加坡_R_1166
-      - 🇸🇬 新加坡_R_826
-      - 🇰🇷 韩国_R_873
-      - 🇰🇷 韩国_R_1180
-      - 🇰🇷 韩国_R_878
-      - 🇺🇸 美国_R_928
-      - 🇺🇸 美国_R_780
-      - 🇺🇸 美国_R_1108
-      - 🇺🇸 美国_R_1159
-      - 🇺🇸 美国_R_884
-      - 🇬🇧 英国_R_1111
-      - 🇬🇧 英国_R_1162
-      - 🇷🇺 俄罗斯_R_982
-      - 🇳🇬 尼日利亚_R_921
       - 🇹🇷 土耳其_R_841
       - 🇭🇺 匈牙利_R_972
-      - 🇮🇱 以色列_R_952
-      - 🇺🇦 乌克兰_R_947
-      - 🇪🇸 西班牙_R_942
-      - 🇧🇬 保加利亚_R_937
-      - 🇮🇸 冰岛_R_932
+      - 🇬🇧 英国_R_1111
       - 🇳🇱 荷兰_R_794
-      - 🇦🇷 阿根廷_R_894
       - 🇮🇹 意大利_R_967
       - 🇮🇩 印度尼西亚_R_962
-      - 🇰🇪 肯尼亚_R_1050
       - 缅甸_R_1391
-      - 🇨🇳 广东省广州市
-      - 🇨🇳 广东省广州市 2
-      - 🇨🇳 广东省广州市 3
-      - 🇺🇸 美国
-      - 🇨🇳 甘肃省兰州市
-      - 🇨🇳 河北省 3
-      - 🇨🇳 甘肃省兰州市 2
-      - 🇨🇳 广东省广州市 4
-      - 🇨🇳 广东省广州市 5
-      - 🇨🇳 广东省广州市 6
-      - 🇨🇳 广东省广州市 7
-      - 🇨🇳 广东省广州市 8
-      - 🇨🇳 广东省广州市 9
-      - 🇨🇳 广东省广州市 10
-      - 🇨🇳 广东省广州市 11
-      - 🇨🇳 广东省广州市 12
-      - 🇨🇳 广东省广州市 13
-      - 🇨🇳 广东省广州市 14
-      - 🇨🇳 台湾省
-      - 🇨🇳 台湾省 2
-      - 🇨🇳 甘肃省兰州市 3
-      - 🇨🇳 河北省 5
+      - 🇺🇸 美国_R_1108
+      - 🇦🇪 阿联酋_R_977
+      - 🇳🇱 荷兰_R_794 2
+      - 🇪🇸 西班牙_R_942
       - 🇨🇳 上海市
-      - 🇨🇳 河北省 7
-      - 🇨🇳 河北省 8
-      - 🇨🇳 广东省广州市 15
-      - 🇨🇳 广东省广州市 16
-      - 🇨🇳 甘肃省兰州市 5
-      - 🇨🇳 广东省
-      - 🇨🇳 河北省 9
-      - 🇨🇳 河北省 10
-      - 🇸🇬 新加坡
-      - 🇭🇰 香港_R_1155
-      - 🇨🇳 甘肃省兰州市 4
-      - 🇯🇵 日本东京
+      - 🇰🇷 韩国 - Seongnam-si - Korea Telecom - 1
+      - 🇰🇷 韩国 - Seongnam-si - Korea Telecom - 1 2
+      - 🇰🇷 韩国 - Seongnam-si - Korea Telecom - 1 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 小昕iOS软件库
+      - 小昕iOS分享
       - 网盘 https://pan.iosxin.top
       - TG https://t.me/xiaoxiniOS
-      - 🇭🇰 香港_R_1215
-      - 🇭🇰 香港_R_988
-      - 🇭🇰 香港_R_911
-      - 🇭🇰 香港_R_863
-      - 🇨🇳 台湾_R_1040
-      - 🇨🇳 台湾_R_821
-      - 🇨🇳 台湾_R_1170
       - 🇹🇭 泰国_R_1013
-      - 🇮🇳 印度_R_868
-      - 🇮🇳 印度_R_1179
-      - 🇫🇷 法国_R_1164
-      - 🇩🇪 德国_R_1174
-      - 🇦🇺 澳大利亚_R_816
-      - 🇦🇺 澳大利亚_R_1169
-      - 🇻🇳 越南_R_1175
       - 🇻🇳 越南_R_1388
-      - 🇲🇾 马来西亚_R_1142
-      - 🇪🇪 爱沙尼亚_R_905
-      - 🇿🇦 南非_R_1034
-      - 🇨🇦 加拿大_R_890
-      - 🇯🇵 日本_R_1129
-      - 🇯🇵 日本_R_1204
-      - 🇦🇿 阿塞拜疆_R_899
       - 🇰🇭 柬埔寨_R_992
-      - 🇵🇭 菲律宾_R_811
-      - 🇨🇭 瑞士_R_1018
-      - 🇦🇪 阿联酋_R_977
-      - 🇸🇬 新加坡_R_806
-      - 🇸🇬 新加坡_R_1166
-      - 🇸🇬 新加坡_R_826
-      - 🇰🇷 韩国_R_873
-      - 🇰🇷 韩国_R_1180
-      - 🇰🇷 韩国_R_878
-      - 🇺🇸 美国_R_928
-      - 🇺🇸 美国_R_780
-      - 🇺🇸 美国_R_1108
-      - 🇺🇸 美国_R_1159
-      - 🇺🇸 美国_R_884
-      - 🇬🇧 英国_R_1111
-      - 🇬🇧 英国_R_1162
-      - 🇷🇺 俄罗斯_R_982
-      - 🇳🇬 尼日利亚_R_921
       - 🇹🇷 土耳其_R_841
       - 🇭🇺 匈牙利_R_972
-      - 🇮🇱 以色列_R_952
-      - 🇺🇦 乌克兰_R_947
-      - 🇪🇸 西班牙_R_942
-      - 🇧🇬 保加利亚_R_937
-      - 🇮🇸 冰岛_R_932
+      - 🇬🇧 英国_R_1111
       - 🇳🇱 荷兰_R_794
-      - 🇦🇷 阿根廷_R_894
       - 🇮🇹 意大利_R_967
       - 🇮🇩 印度尼西亚_R_962
-      - 🇰🇪 肯尼亚_R_1050
       - 缅甸_R_1391
-      - 🇨🇳 广东省广州市
-      - 🇨🇳 广东省广州市 2
-      - 🇨🇳 广东省广州市 3
-      - 🇺🇸 美国
-      - 🇨🇳 甘肃省兰州市
-      - 🇨🇳 河北省 3
-      - 🇨🇳 甘肃省兰州市 2
-      - 🇨🇳 广东省广州市 4
-      - 🇨🇳 广东省广州市 5
-      - 🇨🇳 广东省广州市 6
-      - 🇨🇳 广东省广州市 7
-      - 🇨🇳 广东省广州市 8
-      - 🇨🇳 广东省广州市 9
-      - 🇨🇳 广东省广州市 10
-      - 🇨🇳 广东省广州市 11
-      - 🇨🇳 广东省广州市 12
-      - 🇨🇳 广东省广州市 13
-      - 🇨🇳 广东省广州市 14
-      - 🇨🇳 台湾省
-      - 🇨🇳 台湾省 2
-      - 🇨🇳 甘肃省兰州市 3
-      - 🇨🇳 河北省 5
+      - 🇺🇸 美国_R_1108
+      - 🇦🇪 阿联酋_R_977
+      - 🇳🇱 荷兰_R_794 2
+      - 🇪🇸 西班牙_R_942
       - 🇨🇳 上海市
-      - 🇨🇳 河北省 7
-      - 🇨🇳 河北省 8
-      - 🇨🇳 广东省广州市 15
-      - 🇨🇳 广东省广州市 16
-      - 🇨🇳 甘肃省兰州市 5
-      - 🇨🇳 广东省
-      - 🇨🇳 河北省 9
-      - 🇨🇳 河北省 10
-      - 🇸🇬 新加坡
-      - 🇭🇰 香港_R_1155
-      - 🇨🇳 甘肃省兰州市 4
-      - 🇯🇵 日本东京
+      - 🇰🇷 韩国 - Seongnam-si - Korea Telecom - 1
+      - 🇰🇷 韩国 - Seongnam-si - Korea Telecom - 1 2
+      - 🇰🇷 韩国 - Seongnam-si - Korea Telecom - 1 3
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 小昕iOS软件库
+      - 小昕iOS分享
       - 网盘 https://pan.iosxin.top
       - TG https://t.me/xiaoxiniOS
-      - 🇭🇰 香港_R_1215
-      - 🇭🇰 香港_R_988
-      - 🇭🇰 香港_R_911
-      - 🇭🇰 香港_R_863
-      - 🇨🇳 台湾_R_1040
-      - 🇨🇳 台湾_R_821
-      - 🇨🇳 台湾_R_1170
       - 🇹🇭 泰国_R_1013
-      - 🇮🇳 印度_R_868
-      - 🇮🇳 印度_R_1179
-      - 🇫🇷 法国_R_1164
-      - 🇩🇪 德国_R_1174
-      - 🇦🇺 澳大利亚_R_816
-      - 🇦🇺 澳大利亚_R_1169
-      - 🇻🇳 越南_R_1175
       - 🇻🇳 越南_R_1388
-      - 🇲🇾 马来西亚_R_1142
-      - 🇪🇪 爱沙尼亚_R_905
-      - 🇿🇦 南非_R_1034
-      - 🇨🇦 加拿大_R_890
-      - 🇯🇵 日本_R_1129
-      - 🇯🇵 日本_R_1204
-      - 🇦🇿 阿塞拜疆_R_899
       - 🇰🇭 柬埔寨_R_992
-      - 🇵🇭 菲律宾_R_811
-      - 🇨🇭 瑞士_R_1018
-      - 🇦🇪 阿联酋_R_977
-      - 🇸🇬 新加坡_R_806
-      - 🇸🇬 新加坡_R_1166
-      - 🇸🇬 新加坡_R_826
-      - 🇰🇷 韩国_R_873
-      - 🇰🇷 韩国_R_1180
-      - 🇰🇷 韩国_R_878
-      - 🇺🇸 美国_R_928
-      - 🇺🇸 美国_R_780
-      - 🇺🇸 美国_R_1108
-      - 🇺🇸 美国_R_1159
-      - 🇺🇸 美国_R_884
-      - 🇬🇧 英国_R_1111
-      - 🇬🇧 英国_R_1162
-      - 🇷🇺 俄罗斯_R_982
-      - 🇳🇬 尼日利亚_R_921
       - 🇹🇷 土耳其_R_841
       - 🇭🇺 匈牙利_R_972
-      - 🇮🇱 以色列_R_952
-      - 🇺🇦 乌克兰_R_947
-      - 🇪🇸 西班牙_R_942
-      - 🇧🇬 保加利亚_R_937
-      - 🇮🇸 冰岛_R_932
+      - 🇬🇧 英国_R_1111
       - 🇳🇱 荷兰_R_794
-      - 🇦🇷 阿根廷_R_894
       - 🇮🇹 意大利_R_967
       - 🇮🇩 印度尼西亚_R_962
-      - 🇰🇪 肯尼亚_R_1050
       - 缅甸_R_1391
-      - 🇨🇳 广东省广州市
-      - 🇨🇳 广东省广州市 2
-      - 🇨🇳 广东省广州市 3
-      - 🇺🇸 美国
-      - 🇨🇳 甘肃省兰州市
-      - 🇨🇳 河北省 3
-      - 🇨🇳 甘肃省兰州市 2
-      - 🇨🇳 广东省广州市 4
-      - 🇨🇳 广东省广州市 5
-      - 🇨🇳 广东省广州市 6
-      - 🇨🇳 广东省广州市 7
-      - 🇨🇳 广东省广州市 8
-      - 🇨🇳 广东省广州市 9
-      - 🇨🇳 广东省广州市 10
-      - 🇨🇳 广东省广州市 11
-      - 🇨🇳 广东省广州市 12
-      - 🇨🇳 广东省广州市 13
-      - 🇨🇳 广东省广州市 14
-      - 🇨🇳 台湾省
-      - 🇨🇳 台湾省 2
-      - 🇨🇳 甘肃省兰州市 3
-      - 🇨🇳 河北省 5
+      - 🇺🇸 美国_R_1108
+      - 🇦🇪 阿联酋_R_977
+      - 🇳🇱 荷兰_R_794 2
+      - 🇪🇸 西班牙_R_942
       - 🇨🇳 上海市
-      - 🇨🇳 河北省 7
-      - 🇨🇳 河北省 8
-      - 🇨🇳 广东省广州市 15
-      - 🇨🇳 广东省广州市 16
-      - 🇨🇳 甘肃省兰州市 5
-      - 🇨🇳 广东省
-      - 🇨🇳 河北省 9
-      - 🇨🇳 河北省 10
-      - 🇸🇬 新加坡
-      - 🇭🇰 香港_R_1155
-      - 🇨🇳 甘肃省兰州市 4
-      - 🇯🇵 日本东京
+      - 🇰🇷 韩国 - Seongnam-si - Korea Telecom - 1
+      - 🇰🇷 韩国 - Seongnam-si - Korea Telecom - 1 2
+      - 🇰🇷 韩国 - Seongnam-si - Korea Telecom - 1 3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 小昕iOS软件库
+      - 小昕iOS分享
       - 网盘 https://pan.iosxin.top
       - TG https://t.me/xiaoxiniOS
-      - 🇭🇰 香港_R_1215
-      - 🇭🇰 香港_R_988
-      - 🇭🇰 香港_R_911
-      - 🇭🇰 香港_R_863
-      - 🇨🇳 台湾_R_1040
-      - 🇨🇳 台湾_R_821
-      - 🇨🇳 台湾_R_1170
       - 🇹🇭 泰国_R_1013
-      - 🇮🇳 印度_R_868
-      - 🇮🇳 印度_R_1179
-      - 🇫🇷 法国_R_1164
-      - 🇩🇪 德国_R_1174
-      - 🇦🇺 澳大利亚_R_816
-      - 🇦🇺 澳大利亚_R_1169
-      - 🇻🇳 越南_R_1175
       - 🇻🇳 越南_R_1388
-      - 🇲🇾 马来西亚_R_1142
-      - 🇪🇪 爱沙尼亚_R_905
-      - 🇿🇦 南非_R_1034
-      - 🇨🇦 加拿大_R_890
-      - 🇯🇵 日本_R_1129
-      - 🇯🇵 日本_R_1204
-      - 🇦🇿 阿塞拜疆_R_899
       - 🇰🇭 柬埔寨_R_992
-      - 🇵🇭 菲律宾_R_811
-      - 🇨🇭 瑞士_R_1018
-      - 🇦🇪 阿联酋_R_977
-      - 🇸🇬 新加坡_R_806
-      - 🇸🇬 新加坡_R_1166
-      - 🇸🇬 新加坡_R_826
-      - 🇰🇷 韩国_R_873
-      - 🇰🇷 韩国_R_1180
-      - 🇰🇷 韩国_R_878
-      - 🇺🇸 美国_R_928
-      - 🇺🇸 美国_R_780
-      - 🇺🇸 美国_R_1108
-      - 🇺🇸 美国_R_1159
-      - 🇺🇸 美国_R_884
-      - 🇬🇧 英国_R_1111
-      - 🇬🇧 英国_R_1162
-      - 🇷🇺 俄罗斯_R_982
-      - 🇳🇬 尼日利亚_R_921
       - 🇹🇷 土耳其_R_841
       - 🇭🇺 匈牙利_R_972
-      - 🇮🇱 以色列_R_952
-      - 🇺🇦 乌克兰_R_947
-      - 🇪🇸 西班牙_R_942
-      - 🇧🇬 保加利亚_R_937
-      - 🇮🇸 冰岛_R_932
+      - 🇬🇧 英国_R_1111
       - 🇳🇱 荷兰_R_794
-      - 🇦🇷 阿根廷_R_894
       - 🇮🇹 意大利_R_967
       - 🇮🇩 印度尼西亚_R_962
-      - 🇰🇪 肯尼亚_R_1050
       - 缅甸_R_1391
-      - 🇨🇳 广东省广州市
-      - 🇨🇳 广东省广州市 2
-      - 🇨🇳 广东省广州市 3
-      - 🇺🇸 美国
-      - 🇨🇳 甘肃省兰州市
-      - 🇨🇳 河北省 3
-      - 🇨🇳 甘肃省兰州市 2
-      - 🇨🇳 广东省广州市 4
-      - 🇨🇳 广东省广州市 5
-      - 🇨🇳 广东省广州市 6
-      - 🇨🇳 广东省广州市 7
-      - 🇨🇳 广东省广州市 8
-      - 🇨🇳 广东省广州市 9
-      - 🇨🇳 广东省广州市 10
-      - 🇨🇳 广东省广州市 11
-      - 🇨🇳 广东省广州市 12
-      - 🇨🇳 广东省广州市 13
-      - 🇨🇳 广东省广州市 14
-      - 🇨🇳 台湾省
-      - 🇨🇳 台湾省 2
-      - 🇨🇳 甘肃省兰州市 3
-      - 🇨🇳 河北省 5
+      - 🇺🇸 美国_R_1108
+      - 🇦🇪 阿联酋_R_977
+      - 🇳🇱 荷兰_R_794 2
+      - 🇪🇸 西班牙_R_942
       - 🇨🇳 上海市
-      - 🇨🇳 河北省 7
-      - 🇨🇳 河北省 8
-      - 🇨🇳 广东省广州市 15
-      - 🇨🇳 广东省广州市 16
-      - 🇨🇳 甘肃省兰州市 5
-      - 🇨🇳 广东省
-      - 🇨🇳 河北省 9
-      - 🇨🇳 河北省 10
-      - 🇸🇬 新加坡
-      - 🇭🇰 香港_R_1155
-      - 🇨🇳 甘肃省兰州市 4
-      - 🇯🇵 日本东京
+      - 🇰🇷 韩国 - Seongnam-si - Korea Telecom - 1
+      - 🇰🇷 韩国 - Seongnam-si - Korea Telecom - 1 2
+      - 🇰🇷 韩国 - Seongnam-si - Korea Telecom - 1 3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 小昕iOS软件库
+      - 小昕iOS分享
       - 网盘 https://pan.iosxin.top
       - TG https://t.me/xiaoxiniOS
-      - 🇭🇰 香港_R_1215
-      - 🇭🇰 香港_R_988
-      - 🇭🇰 香港_R_911
-      - 🇭🇰 香港_R_863
-      - 🇨🇳 台湾_R_1040
-      - 🇨🇳 台湾_R_821
-      - 🇨🇳 台湾_R_1170
       - 🇹🇭 泰国_R_1013
-      - 🇮🇳 印度_R_868
-      - 🇮🇳 印度_R_1179
-      - 🇫🇷 法国_R_1164
-      - 🇩🇪 德国_R_1174
-      - 🇦🇺 澳大利亚_R_816
-      - 🇦🇺 澳大利亚_R_1169
-      - 🇻🇳 越南_R_1175
       - 🇻🇳 越南_R_1388
-      - 🇲🇾 马来西亚_R_1142
-      - 🇪🇪 爱沙尼亚_R_905
-      - 🇿🇦 南非_R_1034
-      - 🇨🇦 加拿大_R_890
-      - 🇯🇵 日本_R_1129
-      - 🇯🇵 日本_R_1204
-      - 🇦🇿 阿塞拜疆_R_899
       - 🇰🇭 柬埔寨_R_992
-      - 🇵🇭 菲律宾_R_811
-      - 🇨🇭 瑞士_R_1018
-      - 🇦🇪 阿联酋_R_977
-      - 🇸🇬 新加坡_R_806
-      - 🇸🇬 新加坡_R_1166
-      - 🇸🇬 新加坡_R_826
-      - 🇰🇷 韩国_R_873
-      - 🇰🇷 韩国_R_1180
-      - 🇰🇷 韩国_R_878
-      - 🇺🇸 美国_R_928
-      - 🇺🇸 美国_R_780
-      - 🇺🇸 美国_R_1108
-      - 🇺🇸 美国_R_1159
-      - 🇺🇸 美国_R_884
-      - 🇬🇧 英国_R_1111
-      - 🇬🇧 英国_R_1162
-      - 🇷🇺 俄罗斯_R_982
-      - 🇳🇬 尼日利亚_R_921
       - 🇹🇷 土耳其_R_841
       - 🇭🇺 匈牙利_R_972
-      - 🇮🇱 以色列_R_952
-      - 🇺🇦 乌克兰_R_947
-      - 🇪🇸 西班牙_R_942
-      - 🇧🇬 保加利亚_R_937
-      - 🇮🇸 冰岛_R_932
+      - 🇬🇧 英国_R_1111
       - 🇳🇱 荷兰_R_794
-      - 🇦🇷 阿根廷_R_894
       - 🇮🇹 意大利_R_967
       - 🇮🇩 印度尼西亚_R_962
-      - 🇰🇪 肯尼亚_R_1050
       - 缅甸_R_1391
-      - 🇨🇳 广东省广州市
-      - 🇨🇳 广东省广州市 2
-      - 🇨🇳 广东省广州市 3
-      - 🇺🇸 美国
-      - 🇨🇳 甘肃省兰州市
-      - 🇨🇳 河北省 3
-      - 🇨🇳 甘肃省兰州市 2
-      - 🇨🇳 广东省广州市 4
-      - 🇨🇳 广东省广州市 5
-      - 🇨🇳 广东省广州市 6
-      - 🇨🇳 广东省广州市 7
-      - 🇨🇳 广东省广州市 8
-      - 🇨🇳 广东省广州市 9
-      - 🇨🇳 广东省广州市 10
-      - 🇨🇳 广东省广州市 11
-      - 🇨🇳 广东省广州市 12
-      - 🇨🇳 广东省广州市 13
-      - 🇨🇳 广东省广州市 14
-      - 🇨🇳 台湾省
-      - 🇨🇳 台湾省 2
-      - 🇨🇳 甘肃省兰州市 3
-      - 🇨🇳 河北省 5
+      - 🇺🇸 美国_R_1108
+      - 🇦🇪 阿联酋_R_977
+      - 🇳🇱 荷兰_R_794 2
+      - 🇪🇸 西班牙_R_942
       - 🇨🇳 上海市
-      - 🇨🇳 河北省 7
-      - 🇨🇳 河北省 8
-      - 🇨🇳 广东省广州市 15
-      - 🇨🇳 广东省广州市 16
-      - 🇨🇳 甘肃省兰州市 5
-      - 🇨🇳 广东省
-      - 🇨🇳 河北省 9
-      - 🇨🇳 河北省 10
-      - 🇸🇬 新加坡
-      - 🇭🇰 香港_R_1155
-      - 🇨🇳 甘肃省兰州市 4
-      - 🇯🇵 日本东京
+      - 🇰🇷 韩国 - Seongnam-si - Korea Telecom - 1
+      - 🇰🇷 韩国 - Seongnam-si - Korea Telecom - 1 2
+      - 🇰🇷 韩国 - Seongnam-si - Korea Telecom - 1 3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 小昕iOS软件库
+      - 小昕iOS分享
       - 网盘 https://pan.iosxin.top
       - TG https://t.me/xiaoxiniOS
-      - 🇭🇰 香港_R_1215
-      - 🇭🇰 香港_R_988
-      - 🇭🇰 香港_R_911
-      - 🇭🇰 香港_R_863
-      - 🇨🇳 台湾_R_1040
-      - 🇨🇳 台湾_R_821
-      - 🇨🇳 台湾_R_1170
       - 🇹🇭 泰国_R_1013
-      - 🇮🇳 印度_R_868
-      - 🇮🇳 印度_R_1179
-      - 🇫🇷 法国_R_1164
-      - 🇩🇪 德国_R_1174
-      - 🇦🇺 澳大利亚_R_816
-      - 🇦🇺 澳大利亚_R_1169
-      - 🇻🇳 越南_R_1175
       - 🇻🇳 越南_R_1388
-      - 🇲🇾 马来西亚_R_1142
-      - 🇪🇪 爱沙尼亚_R_905
-      - 🇿🇦 南非_R_1034
-      - 🇨🇦 加拿大_R_890
-      - 🇯🇵 日本_R_1129
-      - 🇯🇵 日本_R_1204
-      - 🇦🇿 阿塞拜疆_R_899
       - 🇰🇭 柬埔寨_R_992
-      - 🇵🇭 菲律宾_R_811
-      - 🇨🇭 瑞士_R_1018
-      - 🇦🇪 阿联酋_R_977
-      - 🇸🇬 新加坡_R_806
-      - 🇸🇬 新加坡_R_1166
-      - 🇸🇬 新加坡_R_826
-      - 🇰🇷 韩国_R_873
-      - 🇰🇷 韩国_R_1180
-      - 🇰🇷 韩国_R_878
-      - 🇺🇸 美国_R_928
-      - 🇺🇸 美国_R_780
-      - 🇺🇸 美国_R_1108
-      - 🇺🇸 美国_R_1159
-      - 🇺🇸 美国_R_884
-      - 🇬🇧 英国_R_1111
-      - 🇬🇧 英国_R_1162
-      - 🇷🇺 俄罗斯_R_982
-      - 🇳🇬 尼日利亚_R_921
       - 🇹🇷 土耳其_R_841
       - 🇭🇺 匈牙利_R_972
-      - 🇮🇱 以色列_R_952
-      - 🇺🇦 乌克兰_R_947
-      - 🇪🇸 西班牙_R_942
-      - 🇧🇬 保加利亚_R_937
-      - 🇮🇸 冰岛_R_932
+      - 🇬🇧 英国_R_1111
       - 🇳🇱 荷兰_R_794
-      - 🇦🇷 阿根廷_R_894
       - 🇮🇹 意大利_R_967
       - 🇮🇩 印度尼西亚_R_962
-      - 🇰🇪 肯尼亚_R_1050
       - 缅甸_R_1391
-      - 🇨🇳 广东省广州市
-      - 🇨🇳 广东省广州市 2
-      - 🇨🇳 广东省广州市 3
-      - 🇺🇸 美国
-      - 🇨🇳 甘肃省兰州市
-      - 🇨🇳 河北省 3
-      - 🇨🇳 甘肃省兰州市 2
-      - 🇨🇳 广东省广州市 4
-      - 🇨🇳 广东省广州市 5
-      - 🇨🇳 广东省广州市 6
-      - 🇨🇳 广东省广州市 7
-      - 🇨🇳 广东省广州市 8
-      - 🇨🇳 广东省广州市 9
-      - 🇨🇳 广东省广州市 10
-      - 🇨🇳 广东省广州市 11
-      - 🇨🇳 广东省广州市 12
-      - 🇨🇳 广东省广州市 13
-      - 🇨🇳 广东省广州市 14
-      - 🇨🇳 台湾省
-      - 🇨🇳 台湾省 2
-      - 🇨🇳 甘肃省兰州市 3
-      - 🇨🇳 河北省 5
+      - 🇺🇸 美国_R_1108
+      - 🇦🇪 阿联酋_R_977
+      - 🇳🇱 荷兰_R_794 2
+      - 🇪🇸 西班牙_R_942
       - 🇨🇳 上海市
-      - 🇨🇳 河北省 7
-      - 🇨🇳 河北省 8
-      - 🇨🇳 广东省广州市 15
-      - 🇨🇳 广东省广州市 16
-      - 🇨🇳 甘肃省兰州市 5
-      - 🇨🇳 广东省
-      - 🇨🇳 河北省 9
-      - 🇨🇳 河北省 10
-      - 🇸🇬 新加坡
-      - 🇭🇰 香港_R_1155
-      - 🇨🇳 甘肃省兰州市 4
-      - 🇯🇵 日本东京
+      - 🇰🇷 韩国 - Seongnam-si - Korea Telecom - 1
+      - 🇰🇷 韩国 - Seongnam-si - Korea Telecom - 1 2
+      - 🇰🇷 韩国 - Seongnam-si - Korea Telecom - 1 3
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 小昕iOS软件库
+      - 小昕iOS分享
       - 网盘 https://pan.iosxin.top
       - TG https://t.me/xiaoxiniOS
-      - 🇭🇰 香港_R_1215
-      - 🇭🇰 香港_R_988
-      - 🇭🇰 香港_R_911
-      - 🇭🇰 香港_R_863
-      - 🇨🇳 台湾_R_1040
-      - 🇨🇳 台湾_R_821
-      - 🇨🇳 台湾_R_1170
       - 🇹🇭 泰国_R_1013
-      - 🇮🇳 印度_R_868
-      - 🇮🇳 印度_R_1179
-      - 🇫🇷 法国_R_1164
-      - 🇩🇪 德国_R_1174
-      - 🇦🇺 澳大利亚_R_816
-      - 🇦🇺 澳大利亚_R_1169
-      - 🇻🇳 越南_R_1175
       - 🇻🇳 越南_R_1388
-      - 🇲🇾 马来西亚_R_1142
-      - 🇪🇪 爱沙尼亚_R_905
-      - 🇿🇦 南非_R_1034
-      - 🇨🇦 加拿大_R_890
-      - 🇯🇵 日本_R_1129
-      - 🇯🇵 日本_R_1204
-      - 🇦🇿 阿塞拜疆_R_899
       - 🇰🇭 柬埔寨_R_992
-      - 🇵🇭 菲律宾_R_811
-      - 🇨🇭 瑞士_R_1018
-      - 🇦🇪 阿联酋_R_977
-      - 🇸🇬 新加坡_R_806
-      - 🇸🇬 新加坡_R_1166
-      - 🇸🇬 新加坡_R_826
-      - 🇰🇷 韩国_R_873
-      - 🇰🇷 韩国_R_1180
-      - 🇰🇷 韩国_R_878
-      - 🇺🇸 美国_R_928
-      - 🇺🇸 美国_R_780
-      - 🇺🇸 美国_R_1108
-      - 🇺🇸 美国_R_1159
-      - 🇺🇸 美国_R_884
-      - 🇬🇧 英国_R_1111
-      - 🇬🇧 英国_R_1162
-      - 🇷🇺 俄罗斯_R_982
-      - 🇳🇬 尼日利亚_R_921
       - 🇹🇷 土耳其_R_841
       - 🇭🇺 匈牙利_R_972
-      - 🇮🇱 以色列_R_952
-      - 🇺🇦 乌克兰_R_947
-      - 🇪🇸 西班牙_R_942
-      - 🇧🇬 保加利亚_R_937
-      - 🇮🇸 冰岛_R_932
+      - 🇬🇧 英国_R_1111
       - 🇳🇱 荷兰_R_794
-      - 🇦🇷 阿根廷_R_894
       - 🇮🇹 意大利_R_967
       - 🇮🇩 印度尼西亚_R_962
-      - 🇰🇪 肯尼亚_R_1050
       - 缅甸_R_1391
-      - 🇨🇳 广东省广州市
-      - 🇨🇳 广东省广州市 2
-      - 🇨🇳 广东省广州市 3
-      - 🇺🇸 美国
-      - 🇨🇳 甘肃省兰州市
-      - 🇨🇳 河北省 3
-      - 🇨🇳 甘肃省兰州市 2
-      - 🇨🇳 广东省广州市 4
-      - 🇨🇳 广东省广州市 5
-      - 🇨🇳 广东省广州市 6
-      - 🇨🇳 广东省广州市 7
-      - 🇨🇳 广东省广州市 8
-      - 🇨🇳 广东省广州市 9
-      - 🇨🇳 广东省广州市 10
-      - 🇨🇳 广东省广州市 11
-      - 🇨🇳 广东省广州市 12
-      - 🇨🇳 广东省广州市 13
-      - 🇨🇳 广东省广州市 14
-      - 🇨🇳 台湾省
-      - 🇨🇳 台湾省 2
-      - 🇨🇳 甘肃省兰州市 3
-      - 🇨🇳 河北省 5
+      - 🇺🇸 美国_R_1108
+      - 🇦🇪 阿联酋_R_977
+      - 🇳🇱 荷兰_R_794 2
+      - 🇪🇸 西班牙_R_942
       - 🇨🇳 上海市
-      - 🇨🇳 河北省 7
-      - 🇨🇳 河北省 8
-      - 🇨🇳 广东省广州市 15
-      - 🇨🇳 广东省广州市 16
-      - 🇨🇳 甘肃省兰州市 5
-      - 🇨🇳 广东省
-      - 🇨🇳 河北省 9
-      - 🇨🇳 河北省 10
-      - 🇸🇬 新加坡
-      - 🇭🇰 香港_R_1155
-      - 🇨🇳 甘肃省兰州市 4
-      - 🇯🇵 日本东京
+      - 🇰🇷 韩国 - Seongnam-si - Korea Telecom - 1
+      - 🇰🇷 韩国 - Seongnam-si - Korea Telecom - 1 2
+      - 🇰🇷 韩国 - Seongnam-si - Korea Telecom - 1 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -817,132 +234,27 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 小昕iOS软件库
+      - 小昕iOS分享
       - 网盘 https://pan.iosxin.top
       - TG https://t.me/xiaoxiniOS
-      - 🇭🇰 香港_R_1215
-      - 🇭🇰 香港_R_988
-      - 🇭🇰 香港_R_911
-      - 🇭🇰 香港_R_863
-      - 🇨🇳 台湾_R_1040
-      - 🇨🇳 台湾_R_821
-      - 🇨🇳 台湾_R_1170
       - 🇹🇭 泰国_R_1013
-      - 🇮🇳 印度_R_868
-      - 🇮🇳 印度_R_1179
-      - 🇫🇷 法国_R_1164
-      - 🇩🇪 德国_R_1174
-      - 🇦🇺 澳大利亚_R_816
-      - 🇦🇺 澳大利亚_R_1169
-      - 🇻🇳 越南_R_1175
       - 🇻🇳 越南_R_1388
-      - 🇲🇾 马来西亚_R_1142
-      - 🇪🇪 爱沙尼亚_R_905
-      - 🇿🇦 南非_R_1034
-      - 🇨🇦 加拿大_R_890
-      - 🇯🇵 日本_R_1129
-      - 🇯🇵 日本_R_1204
-      - 🇦🇿 阿塞拜疆_R_899
       - 🇰🇭 柬埔寨_R_992
-      - 🇵🇭 菲律宾_R_811
-      - 🇨🇭 瑞士_R_1018
-      - 🇦🇪 阿联酋_R_977
-      - 🇸🇬 新加坡_R_806
-      - 🇸🇬 新加坡_R_1166
-      - 🇸🇬 新加坡_R_826
-      - 🇰🇷 韩国_R_873
-      - 🇰🇷 韩国_R_1180
-      - 🇰🇷 韩国_R_878
-      - 🇺🇸 美国_R_928
-      - 🇺🇸 美国_R_780
-      - 🇺🇸 美国_R_1108
-      - 🇺🇸 美国_R_1159
-      - 🇺🇸 美国_R_884
-      - 🇬🇧 英国_R_1111
-      - 🇬🇧 英国_R_1162
-      - 🇷🇺 俄罗斯_R_982
-      - 🇳🇬 尼日利亚_R_921
       - 🇹🇷 土耳其_R_841
       - 🇭🇺 匈牙利_R_972
-      - 🇮🇱 以色列_R_952
-      - 🇺🇦 乌克兰_R_947
-      - 🇪🇸 西班牙_R_942
-      - 🇧🇬 保加利亚_R_937
-      - 🇮🇸 冰岛_R_932
+      - 🇬🇧 英国_R_1111
       - 🇳🇱 荷兰_R_794
-      - 🇦🇷 阿根廷_R_894
       - 🇮🇹 意大利_R_967
       - 🇮🇩 印度尼西亚_R_962
-      - 🇰🇪 肯尼亚_R_1050
       - 缅甸_R_1391
-      - 🇨🇳 广东省广州市
-      - 🇨🇳 广东省广州市 2
-      - 🇨🇳 广东省广州市 3
-      - 🇺🇸 美国
-      - 🇨🇳 甘肃省兰州市
-      - 🇨🇳 河北省 3
-      - 🇨🇳 甘肃省兰州市 2
-      - 🇨🇳 广东省广州市 4
-      - 🇨🇳 广东省广州市 5
-      - 🇨🇳 广东省广州市 6
-      - 🇨🇳 广东省广州市 7
-      - 🇨🇳 广东省广州市 8
-      - 🇨🇳 广东省广州市 9
-      - 🇨🇳 广东省广州市 10
-      - 🇨🇳 广东省广州市 11
-      - 🇨🇳 广东省广州市 12
-      - 🇨🇳 广东省广州市 13
-      - 🇨🇳 广东省广州市 14
-      - 🇨🇳 台湾省
-      - 🇨🇳 台湾省 2
-      - 🇨🇳 甘肃省兰州市 3
-      - 🇨🇳 河北省 5
-      - 🇨🇳 上海市
-      - 🇨🇳 河北省 7
-      - 🇨🇳 河北省 8
-      - 🇨🇳 广东省广州市 15
-      - 🇨🇳 广东省广州市 16
-      - 🇨🇳 甘肃省兰州市 5
-      - 🇨🇳 广东省
-      - 🇨🇳 河北省 9
-      - 🇨🇳 河北省 10
-      - 🇸🇬 新加坡
-      - 🇭🇰 香港_R_1155
-      - 🇨🇳 甘肃省兰州市 4
-      - 🇯🇵 日本东京
-  - name: 🇭🇰 香港节点
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 600
-    tolerance: 50
-    proxies:
-      - 🇭🇰 香港_R_1215
-      - 🇭🇰 香港_R_988
-      - 🇭🇰 香港_R_911
-      - 🇭🇰 香港_R_863
-      - 🇭🇰 香港_R_1155
-  - name: 🇯🇵 日本节点
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-    proxies:
-      - 🇯🇵 日本_R_1129
-      - 🇯🇵 日本_R_1204
-      - 🇳🇬 尼日利亚_R_921
-      - 🇯🇵 日本东京
-  - name: 🇺🇲 美国节点
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 150
-    proxies:
-      - 🇺🇸 美国_R_928
-      - 🇺🇸 美国_R_780
       - 🇺🇸 美国_R_1108
-      - 🇺🇸 美国_R_1159
-      - 🇺🇸 美国_R_884
-      - 🇺🇸 美国
+      - 🇦🇪 阿联酋_R_977
+      - 🇳🇱 荷兰_R_794 2
+      - 🇪🇸 西班牙_R_942
+      - 🇨🇳 上海市
+      - 🇰🇷 韩国 - Seongnam-si - Korea Telecom - 1
+      - 🇰🇷 韩国 - Seongnam-si - Korea Telecom - 1 2
+      - 🇰🇷 韩国 - Seongnam-si - Korea Telecom - 1 3
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
