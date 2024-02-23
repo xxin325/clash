@@ -22,10 +22,44 @@ proxies:
   - {name: 🇦🇪 阿联酋_R_977, server: angular-cdn-2.telescopes.work, port: 35230, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
   - {name: 🇳🇱 荷兰_R_794 2, server: angular-cdn-2.telescopes.work, port: 35020, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
   - {name: 🇪🇸 西班牙_R_942, server: angular-cdn-2.telescopes.work, port: 35182, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
-  - {name: 🇨🇳 上海市, server: 180.164.80.121, port: 8443, type: trojan, password: 18d443f9-ad28-3c96-b13d-9127c46e06b7, sni: 45.32.28.232}
-  - {name: 🇰🇷 韩国 - Seongnam-si - Korea Telecom - 1, server: p220.panda001.net, port: 53258, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 🇰🇷 韩国 - Seongnam-si - Korea Telecom - 1 2, server: p220.panda001.net, port: 53258, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 🇰🇷 韩国 - Seongnam-si - Korea Telecom - 1 3, server: p220.panda001.net, port: 53258, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: 🇭🇰 香港_R_1392, server: mtj.telescopes.work, port: 45007, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
+  - {name: 🇭🇰 香港_R_1459, server: iepl-hn.cctelescope.xyz, port: 35055, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
+  - {name: 🇭🇰 香港_R_1489, server: iepl-hn.cctelescope.xyz, port: 35232, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
+  - {name: 🇭🇰 香港_R_1475, server: iepl-hn.cctelescope.xyz, port: 35151, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
+  - {name: 🇨🇳 台湾_R_1409, server: mtj.telescopes.work, port: 45013, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
+  - {name: 🇨🇳 台湾_R_1457, server: iepl-hn.cctelescope.xyz, port: 35046, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
+  - {name: 🇨🇳 台湾_R_1497, server: iepl-hn.cctelescope.xyz, port: 35245, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
+  - {name: 🇦🇺 澳大利亚_R_1456, server: iepl-hn.cctelescope.xyz, port: 35038, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
+  - {name: 🇮🇳 印度_R_1422, server: mtj.telescopes.work, port: 45008, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
+  - {name: 🇲🇾 马来西亚_R_1143, server: react-cdn-004.telescopeclothing.com, port: 45056, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
+  - {name: 🇲🇾 马来西亚_R_1435, server: mtj.telescopes.work, port: 45056, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
+  - {name: 🇯🇵 日本_R_1499, server: iepl-hn.cctelescope.xyz, port: 35249, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
+  - {name: 🇯🇵 日本_R_1464, server: iepl-hn.cctelescope.xyz, port: 35085, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
+  - {name: 🇯🇵 日本_R_1129, server: react-cdn-004.telescopeclothing.com, port: 45009, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
+  - {name: 🇦🇪 阿联酋_R_977 2, server: angular-cdn-2.telescopes.work, port: 35230, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
+  - {name: 🇸🇬 新加坡_R_1405, server: mtj.telescopes.work, port: 45011, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
+  - {name: 🇸🇬 新加坡_R_1454, server: iepl-hn.cctelescope.xyz, port: 35026, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
+  - {name: 🇸🇬 新加坡_R_1458, server: iepl-hn.cctelescope.xyz, port: 35051, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
+  - {name: 🇰🇷 韩国_R_1423, server: mtj.telescopes.work, port: 45010, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
+  - {name: 🇺🇸 美国_R_1477, server: iepl-hn.cctelescope.xyz, port: 35173, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
+  - {name: 🇰🇷 韩国_R_1468, server: iepl-hn.cctelescope.xyz, port: 35099, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
+  - {name: 🇰🇷 韩国_R_1469, server: iepl-hn.cctelescope.xyz, port: 35101, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
+  - {name: 🇺🇸 美国_R_1398, server: mtj.telescopes.work, port: 45026, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
+  - {name: 🇺🇸 美国_R_1450, server: iepl-hn.cctelescope.xyz, port: 35009, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
+  - {name: 🇺🇸 美国_R_1470, server: iepl-hn.cctelescope.xyz, port: 35103, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
+  - {name: 🇬🇧 英国_R_1465, server: iepl-hn.cctelescope.xyz, port: 35090, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
+  - {name: 🇬🇧 英国_R_1401, server: mtj.telescopes.work, port: 45014, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
+  - {name: 🇬🇧 英国_R_1451, server: iepl-hn.cctelescope.xyz, port: 35010, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:kuEqlRD1wN, obfs-param: ajax.microsoft.com}
+  - {name: 🇩🇪 德国1, server: cf.openxai.link, port: 8080, type: vmess, uuid: c18beb85-c67b-46ed-b8cc-4cbfeae5f194, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: eu1.openxai.link}}}
+  - {name: 🇩🇪 德国2, server: cf.openxai.link, port: 8080, type: vmess, uuid: aa1dbb68-bfb5-4484-f7e7-7335eac3988c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: eu2.openxai.link}}}
+  - {name: 🇰🇷 韩国 - Guro-gu - SK Broadband Co Ltd - 6, server: p110.panda001.net, port: 54345, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: 🇰🇷 韩国 - Guro-gu - SK Broadband Co Ltd - 6 2, server: p110.panda001.net, port: 54345, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: 🇰🇷 韩国 - 首尔特别市 - Korea Telecom - 3, server: p230.panda004.net, port: 10122, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: 🇰🇷 韩国 - 首尔特别市 - Korea Telecom - 4, server: 221.150.109.81, port: 10122, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: 🇰🇷 韩国 - 首尔特别市 - Korea Telecom - 4 2, server: 221.150.109.81, port: 10122, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: 🇰🇷 韩国 - 首尔特别市 - Korea Telecom - 4 3, server: 221.150.109.81, port: 10122, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: 🇸🇬 新加坡 - 新加坡 - Melbikomas UAB - 9, server: 103.172.116.103, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ}
+  - {name: 🇸🇬 新加坡 - 新加坡 - Melbikomas UAB - 9 2, server: 103.172.116.103, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -49,10 +83,44 @@ proxy-groups:
       - 🇦🇪 阿联酋_R_977
       - 🇳🇱 荷兰_R_794 2
       - 🇪🇸 西班牙_R_942
-      - 🇨🇳 上海市
-      - 🇰🇷 韩国 - Seongnam-si - Korea Telecom - 1
-      - 🇰🇷 韩国 - Seongnam-si - Korea Telecom - 1 2
-      - 🇰🇷 韩国 - Seongnam-si - Korea Telecom - 1 3
+      - 🇭🇰 香港_R_1392
+      - 🇭🇰 香港_R_1459
+      - 🇭🇰 香港_R_1489
+      - 🇭🇰 香港_R_1475
+      - 🇨🇳 台湾_R_1409
+      - 🇨🇳 台湾_R_1457
+      - 🇨🇳 台湾_R_1497
+      - 🇦🇺 澳大利亚_R_1456
+      - 🇮🇳 印度_R_1422
+      - 🇲🇾 马来西亚_R_1143
+      - 🇲🇾 马来西亚_R_1435
+      - 🇯🇵 日本_R_1499
+      - 🇯🇵 日本_R_1464
+      - 🇯🇵 日本_R_1129
+      - 🇦🇪 阿联酋_R_977 2
+      - 🇸🇬 新加坡_R_1405
+      - 🇸🇬 新加坡_R_1454
+      - 🇸🇬 新加坡_R_1458
+      - 🇰🇷 韩国_R_1423
+      - 🇺🇸 美国_R_1477
+      - 🇰🇷 韩国_R_1468
+      - 🇰🇷 韩国_R_1469
+      - 🇺🇸 美国_R_1398
+      - 🇺🇸 美国_R_1450
+      - 🇺🇸 美国_R_1470
+      - 🇬🇧 英国_R_1465
+      - 🇬🇧 英国_R_1401
+      - 🇬🇧 英国_R_1451
+      - 🇩🇪 德国1
+      - 🇩🇪 德国2
+      - 🇰🇷 韩国 - Guro-gu - SK Broadband Co Ltd - 6
+      - 🇰🇷 韩国 - Guro-gu - SK Broadband Co Ltd - 6 2
+      - 🇰🇷 韩国 - 首尔特别市 - Korea Telecom - 3
+      - 🇰🇷 韩国 - 首尔特别市 - Korea Telecom - 4
+      - 🇰🇷 韩国 - 首尔特别市 - Korea Telecom - 4 2
+      - 🇰🇷 韩国 - 首尔特别市 - Korea Telecom - 4 3
+      - 🇸🇬 新加坡 - 新加坡 - Melbikomas UAB - 9
+      - 🇸🇬 新加坡 - 新加坡 - Melbikomas UAB - 9 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -76,10 +144,44 @@ proxy-groups:
       - 🇦🇪 阿联酋_R_977
       - 🇳🇱 荷兰_R_794 2
       - 🇪🇸 西班牙_R_942
-      - 🇨🇳 上海市
-      - 🇰🇷 韩国 - Seongnam-si - Korea Telecom - 1
-      - 🇰🇷 韩国 - Seongnam-si - Korea Telecom - 1 2
-      - 🇰🇷 韩国 - Seongnam-si - Korea Telecom - 1 3
+      - 🇭🇰 香港_R_1392
+      - 🇭🇰 香港_R_1459
+      - 🇭🇰 香港_R_1489
+      - 🇭🇰 香港_R_1475
+      - 🇨🇳 台湾_R_1409
+      - 🇨🇳 台湾_R_1457
+      - 🇨🇳 台湾_R_1497
+      - 🇦🇺 澳大利亚_R_1456
+      - 🇮🇳 印度_R_1422
+      - 🇲🇾 马来西亚_R_1143
+      - 🇲🇾 马来西亚_R_1435
+      - 🇯🇵 日本_R_1499
+      - 🇯🇵 日本_R_1464
+      - 🇯🇵 日本_R_1129
+      - 🇦🇪 阿联酋_R_977 2
+      - 🇸🇬 新加坡_R_1405
+      - 🇸🇬 新加坡_R_1454
+      - 🇸🇬 新加坡_R_1458
+      - 🇰🇷 韩国_R_1423
+      - 🇺🇸 美国_R_1477
+      - 🇰🇷 韩国_R_1468
+      - 🇰🇷 韩国_R_1469
+      - 🇺🇸 美国_R_1398
+      - 🇺🇸 美国_R_1450
+      - 🇺🇸 美国_R_1470
+      - 🇬🇧 英国_R_1465
+      - 🇬🇧 英国_R_1401
+      - 🇬🇧 英国_R_1451
+      - 🇩🇪 德国1
+      - 🇩🇪 德国2
+      - 🇰🇷 韩国 - Guro-gu - SK Broadband Co Ltd - 6
+      - 🇰🇷 韩国 - Guro-gu - SK Broadband Co Ltd - 6 2
+      - 🇰🇷 韩国 - 首尔特别市 - Korea Telecom - 3
+      - 🇰🇷 韩国 - 首尔特别市 - Korea Telecom - 4
+      - 🇰🇷 韩国 - 首尔特别市 - Korea Telecom - 4 2
+      - 🇰🇷 韩国 - 首尔特别市 - Korea Telecom - 4 3
+      - 🇸🇬 新加坡 - 新加坡 - Melbikomas UAB - 9
+      - 🇸🇬 新加坡 - 新加坡 - Melbikomas UAB - 9 2
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -103,10 +205,44 @@ proxy-groups:
       - 🇦🇪 阿联酋_R_977
       - 🇳🇱 荷兰_R_794 2
       - 🇪🇸 西班牙_R_942
-      - 🇨🇳 上海市
-      - 🇰🇷 韩国 - Seongnam-si - Korea Telecom - 1
-      - 🇰🇷 韩国 - Seongnam-si - Korea Telecom - 1 2
-      - 🇰🇷 韩国 - Seongnam-si - Korea Telecom - 1 3
+      - 🇭🇰 香港_R_1392
+      - 🇭🇰 香港_R_1459
+      - 🇭🇰 香港_R_1489
+      - 🇭🇰 香港_R_1475
+      - 🇨🇳 台湾_R_1409
+      - 🇨🇳 台湾_R_1457
+      - 🇨🇳 台湾_R_1497
+      - 🇦🇺 澳大利亚_R_1456
+      - 🇮🇳 印度_R_1422
+      - 🇲🇾 马来西亚_R_1143
+      - 🇲🇾 马来西亚_R_1435
+      - 🇯🇵 日本_R_1499
+      - 🇯🇵 日本_R_1464
+      - 🇯🇵 日本_R_1129
+      - 🇦🇪 阿联酋_R_977 2
+      - 🇸🇬 新加坡_R_1405
+      - 🇸🇬 新加坡_R_1454
+      - 🇸🇬 新加坡_R_1458
+      - 🇰🇷 韩国_R_1423
+      - 🇺🇸 美国_R_1477
+      - 🇰🇷 韩国_R_1468
+      - 🇰🇷 韩国_R_1469
+      - 🇺🇸 美国_R_1398
+      - 🇺🇸 美国_R_1450
+      - 🇺🇸 美国_R_1470
+      - 🇬🇧 英国_R_1465
+      - 🇬🇧 英国_R_1401
+      - 🇬🇧 英国_R_1451
+      - 🇩🇪 德国1
+      - 🇩🇪 德国2
+      - 🇰🇷 韩国 - Guro-gu - SK Broadband Co Ltd - 6
+      - 🇰🇷 韩国 - Guro-gu - SK Broadband Co Ltd - 6 2
+      - 🇰🇷 韩国 - 首尔特别市 - Korea Telecom - 3
+      - 🇰🇷 韩国 - 首尔特别市 - Korea Telecom - 4
+      - 🇰🇷 韩国 - 首尔特别市 - Korea Telecom - 4 2
+      - 🇰🇷 韩国 - 首尔特别市 - Korea Telecom - 4 3
+      - 🇸🇬 新加坡 - 新加坡 - Melbikomas UAB - 9
+      - 🇸🇬 新加坡 - 新加坡 - Melbikomas UAB - 9 2
   - name: 📲 电报信息
     type: select
     proxies:
@@ -129,10 +265,44 @@ proxy-groups:
       - 🇦🇪 阿联酋_R_977
       - 🇳🇱 荷兰_R_794 2
       - 🇪🇸 西班牙_R_942
-      - 🇨🇳 上海市
-      - 🇰🇷 韩国 - Seongnam-si - Korea Telecom - 1
-      - 🇰🇷 韩国 - Seongnam-si - Korea Telecom - 1 2
-      - 🇰🇷 韩国 - Seongnam-si - Korea Telecom - 1 3
+      - 🇭🇰 香港_R_1392
+      - 🇭🇰 香港_R_1459
+      - 🇭🇰 香港_R_1489
+      - 🇭🇰 香港_R_1475
+      - 🇨🇳 台湾_R_1409
+      - 🇨🇳 台湾_R_1457
+      - 🇨🇳 台湾_R_1497
+      - 🇦🇺 澳大利亚_R_1456
+      - 🇮🇳 印度_R_1422
+      - 🇲🇾 马来西亚_R_1143
+      - 🇲🇾 马来西亚_R_1435
+      - 🇯🇵 日本_R_1499
+      - 🇯🇵 日本_R_1464
+      - 🇯🇵 日本_R_1129
+      - 🇦🇪 阿联酋_R_977 2
+      - 🇸🇬 新加坡_R_1405
+      - 🇸🇬 新加坡_R_1454
+      - 🇸🇬 新加坡_R_1458
+      - 🇰🇷 韩国_R_1423
+      - 🇺🇸 美国_R_1477
+      - 🇰🇷 韩国_R_1468
+      - 🇰🇷 韩国_R_1469
+      - 🇺🇸 美国_R_1398
+      - 🇺🇸 美国_R_1450
+      - 🇺🇸 美国_R_1470
+      - 🇬🇧 英国_R_1465
+      - 🇬🇧 英国_R_1401
+      - 🇬🇧 英国_R_1451
+      - 🇩🇪 德国1
+      - 🇩🇪 德国2
+      - 🇰🇷 韩国 - Guro-gu - SK Broadband Co Ltd - 6
+      - 🇰🇷 韩国 - Guro-gu - SK Broadband Co Ltd - 6 2
+      - 🇰🇷 韩国 - 首尔特别市 - Korea Telecom - 3
+      - 🇰🇷 韩国 - 首尔特别市 - Korea Telecom - 4
+      - 🇰🇷 韩国 - 首尔特别市 - Korea Telecom - 4 2
+      - 🇰🇷 韩国 - 首尔特别市 - Korea Telecom - 4 3
+      - 🇸🇬 新加坡 - 新加坡 - Melbikomas UAB - 9
+      - 🇸🇬 新加坡 - 新加坡 - Melbikomas UAB - 9 2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -155,10 +325,44 @@ proxy-groups:
       - 🇦🇪 阿联酋_R_977
       - 🇳🇱 荷兰_R_794 2
       - 🇪🇸 西班牙_R_942
-      - 🇨🇳 上海市
-      - 🇰🇷 韩国 - Seongnam-si - Korea Telecom - 1
-      - 🇰🇷 韩国 - Seongnam-si - Korea Telecom - 1 2
-      - 🇰🇷 韩国 - Seongnam-si - Korea Telecom - 1 3
+      - 🇭🇰 香港_R_1392
+      - 🇭🇰 香港_R_1459
+      - 🇭🇰 香港_R_1489
+      - 🇭🇰 香港_R_1475
+      - 🇨🇳 台湾_R_1409
+      - 🇨🇳 台湾_R_1457
+      - 🇨🇳 台湾_R_1497
+      - 🇦🇺 澳大利亚_R_1456
+      - 🇮🇳 印度_R_1422
+      - 🇲🇾 马来西亚_R_1143
+      - 🇲🇾 马来西亚_R_1435
+      - 🇯🇵 日本_R_1499
+      - 🇯🇵 日本_R_1464
+      - 🇯🇵 日本_R_1129
+      - 🇦🇪 阿联酋_R_977 2
+      - 🇸🇬 新加坡_R_1405
+      - 🇸🇬 新加坡_R_1454
+      - 🇸🇬 新加坡_R_1458
+      - 🇰🇷 韩国_R_1423
+      - 🇺🇸 美国_R_1477
+      - 🇰🇷 韩国_R_1468
+      - 🇰🇷 韩国_R_1469
+      - 🇺🇸 美国_R_1398
+      - 🇺🇸 美国_R_1450
+      - 🇺🇸 美国_R_1470
+      - 🇬🇧 英国_R_1465
+      - 🇬🇧 英国_R_1401
+      - 🇬🇧 英国_R_1451
+      - 🇩🇪 德国1
+      - 🇩🇪 德国2
+      - 🇰🇷 韩国 - Guro-gu - SK Broadband Co Ltd - 6
+      - 🇰🇷 韩国 - Guro-gu - SK Broadband Co Ltd - 6 2
+      - 🇰🇷 韩国 - 首尔特别市 - Korea Telecom - 3
+      - 🇰🇷 韩国 - 首尔特别市 - Korea Telecom - 4
+      - 🇰🇷 韩国 - 首尔特别市 - Korea Telecom - 4 2
+      - 🇰🇷 韩国 - 首尔特别市 - Korea Telecom - 4 3
+      - 🇸🇬 新加坡 - 新加坡 - Melbikomas UAB - 9
+      - 🇸🇬 新加坡 - 新加坡 - Melbikomas UAB - 9 2
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -181,10 +385,44 @@ proxy-groups:
       - 🇦🇪 阿联酋_R_977
       - 🇳🇱 荷兰_R_794 2
       - 🇪🇸 西班牙_R_942
-      - 🇨🇳 上海市
-      - 🇰🇷 韩国 - Seongnam-si - Korea Telecom - 1
-      - 🇰🇷 韩国 - Seongnam-si - Korea Telecom - 1 2
-      - 🇰🇷 韩国 - Seongnam-si - Korea Telecom - 1 3
+      - 🇭🇰 香港_R_1392
+      - 🇭🇰 香港_R_1459
+      - 🇭🇰 香港_R_1489
+      - 🇭🇰 香港_R_1475
+      - 🇨🇳 台湾_R_1409
+      - 🇨🇳 台湾_R_1457
+      - 🇨🇳 台湾_R_1497
+      - 🇦🇺 澳大利亚_R_1456
+      - 🇮🇳 印度_R_1422
+      - 🇲🇾 马来西亚_R_1143
+      - 🇲🇾 马来西亚_R_1435
+      - 🇯🇵 日本_R_1499
+      - 🇯🇵 日本_R_1464
+      - 🇯🇵 日本_R_1129
+      - 🇦🇪 阿联酋_R_977 2
+      - 🇸🇬 新加坡_R_1405
+      - 🇸🇬 新加坡_R_1454
+      - 🇸🇬 新加坡_R_1458
+      - 🇰🇷 韩国_R_1423
+      - 🇺🇸 美国_R_1477
+      - 🇰🇷 韩国_R_1468
+      - 🇰🇷 韩国_R_1469
+      - 🇺🇸 美国_R_1398
+      - 🇺🇸 美国_R_1450
+      - 🇺🇸 美国_R_1470
+      - 🇬🇧 英国_R_1465
+      - 🇬🇧 英国_R_1401
+      - 🇬🇧 英国_R_1451
+      - 🇩🇪 德国1
+      - 🇩🇪 德国2
+      - 🇰🇷 韩国 - Guro-gu - SK Broadband Co Ltd - 6
+      - 🇰🇷 韩国 - Guro-gu - SK Broadband Co Ltd - 6 2
+      - 🇰🇷 韩国 - 首尔特别市 - Korea Telecom - 3
+      - 🇰🇷 韩国 - 首尔特别市 - Korea Telecom - 4
+      - 🇰🇷 韩国 - 首尔特别市 - Korea Telecom - 4 2
+      - 🇰🇷 韩国 - 首尔特别市 - Korea Telecom - 4 3
+      - 🇸🇬 新加坡 - 新加坡 - Melbikomas UAB - 9
+      - 🇸🇬 新加坡 - 新加坡 - Melbikomas UAB - 9 2
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -208,10 +446,44 @@ proxy-groups:
       - 🇦🇪 阿联酋_R_977
       - 🇳🇱 荷兰_R_794 2
       - 🇪🇸 西班牙_R_942
-      - 🇨🇳 上海市
-      - 🇰🇷 韩国 - Seongnam-si - Korea Telecom - 1
-      - 🇰🇷 韩国 - Seongnam-si - Korea Telecom - 1 2
-      - 🇰🇷 韩国 - Seongnam-si - Korea Telecom - 1 3
+      - 🇭🇰 香港_R_1392
+      - 🇭🇰 香港_R_1459
+      - 🇭🇰 香港_R_1489
+      - 🇭🇰 香港_R_1475
+      - 🇨🇳 台湾_R_1409
+      - 🇨🇳 台湾_R_1457
+      - 🇨🇳 台湾_R_1497
+      - 🇦🇺 澳大利亚_R_1456
+      - 🇮🇳 印度_R_1422
+      - 🇲🇾 马来西亚_R_1143
+      - 🇲🇾 马来西亚_R_1435
+      - 🇯🇵 日本_R_1499
+      - 🇯🇵 日本_R_1464
+      - 🇯🇵 日本_R_1129
+      - 🇦🇪 阿联酋_R_977 2
+      - 🇸🇬 新加坡_R_1405
+      - 🇸🇬 新加坡_R_1454
+      - 🇸🇬 新加坡_R_1458
+      - 🇰🇷 韩国_R_1423
+      - 🇺🇸 美国_R_1477
+      - 🇰🇷 韩国_R_1468
+      - 🇰🇷 韩国_R_1469
+      - 🇺🇸 美国_R_1398
+      - 🇺🇸 美国_R_1450
+      - 🇺🇸 美国_R_1470
+      - 🇬🇧 英国_R_1465
+      - 🇬🇧 英国_R_1401
+      - 🇬🇧 英国_R_1451
+      - 🇩🇪 德国1
+      - 🇩🇪 德国2
+      - 🇰🇷 韩国 - Guro-gu - SK Broadband Co Ltd - 6
+      - 🇰🇷 韩国 - Guro-gu - SK Broadband Co Ltd - 6 2
+      - 🇰🇷 韩国 - 首尔特别市 - Korea Telecom - 3
+      - 🇰🇷 韩国 - 首尔特别市 - Korea Telecom - 4
+      - 🇰🇷 韩国 - 首尔特别市 - Korea Telecom - 4 2
+      - 🇰🇷 韩国 - 首尔特别市 - Korea Telecom - 4 3
+      - 🇸🇬 新加坡 - 新加坡 - Melbikomas UAB - 9
+      - 🇸🇬 新加坡 - 新加坡 - Melbikomas UAB - 9 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -251,10 +523,44 @@ proxy-groups:
       - 🇦🇪 阿联酋_R_977
       - 🇳🇱 荷兰_R_794 2
       - 🇪🇸 西班牙_R_942
-      - 🇨🇳 上海市
-      - 🇰🇷 韩国 - Seongnam-si - Korea Telecom - 1
-      - 🇰🇷 韩国 - Seongnam-si - Korea Telecom - 1 2
-      - 🇰🇷 韩国 - Seongnam-si - Korea Telecom - 1 3
+      - 🇭🇰 香港_R_1392
+      - 🇭🇰 香港_R_1459
+      - 🇭🇰 香港_R_1489
+      - 🇭🇰 香港_R_1475
+      - 🇨🇳 台湾_R_1409
+      - 🇨🇳 台湾_R_1457
+      - 🇨🇳 台湾_R_1497
+      - 🇦🇺 澳大利亚_R_1456
+      - 🇮🇳 印度_R_1422
+      - 🇲🇾 马来西亚_R_1143
+      - 🇲🇾 马来西亚_R_1435
+      - 🇯🇵 日本_R_1499
+      - 🇯🇵 日本_R_1464
+      - 🇯🇵 日本_R_1129
+      - 🇦🇪 阿联酋_R_977 2
+      - 🇸🇬 新加坡_R_1405
+      - 🇸🇬 新加坡_R_1454
+      - 🇸🇬 新加坡_R_1458
+      - 🇰🇷 韩国_R_1423
+      - 🇺🇸 美国_R_1477
+      - 🇰🇷 韩国_R_1468
+      - 🇰🇷 韩国_R_1469
+      - 🇺🇸 美国_R_1398
+      - 🇺🇸 美国_R_1450
+      - 🇺🇸 美国_R_1470
+      - 🇬🇧 英国_R_1465
+      - 🇬🇧 英国_R_1401
+      - 🇬🇧 英国_R_1451
+      - 🇩🇪 德国1
+      - 🇩🇪 德国2
+      - 🇰🇷 韩国 - Guro-gu - SK Broadband Co Ltd - 6
+      - 🇰🇷 韩国 - Guro-gu - SK Broadband Co Ltd - 6 2
+      - 🇰🇷 韩国 - 首尔特别市 - Korea Telecom - 3
+      - 🇰🇷 韩国 - 首尔特别市 - Korea Telecom - 4
+      - 🇰🇷 韩国 - 首尔特别市 - Korea Telecom - 4 2
+      - 🇰🇷 韩国 - 首尔特别市 - Korea Telecom - 4 3
+      - 🇸🇬 新加坡 - 新加坡 - Melbikomas UAB - 9
+      - 🇸🇬 新加坡 - 新加坡 - Melbikomas UAB - 9 2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
